@@ -1,0 +1,12 @@
+name: AntiSpamBot
+version: 1.0.0
+description: An anti-spam bot plugin which stops players from using chat until they have moved.
+author: ShadowRanger
+
+main: io.github.shadowranger.antispambot.AntiSpamBot
+database: false
+
+permissions:
+  antispambot.bypass:
+    description: Allows a player to bypass AntiSpamBot's chat protection system.
+    default: op

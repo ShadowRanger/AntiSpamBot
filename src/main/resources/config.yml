@@ -1,0 +1,4 @@
+messages:
+  # The message to display to a player when they try to use chat before they have moved.
+  # Supports colors. http://minecraft.gamepedia.com/Formatting_codes#Color_codes
+  move-to-chat: '&7You must move before you can use chat!'
