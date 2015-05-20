@@ -32,6 +32,9 @@ public class AntiSpamBot extends JavaPlugin implements Listener {
 
         // Load the move to chat message from the config
         moveToChatMessage = getConfig().getString("messages.move-to-chat", "&7You must move before you can chat!");
+
+        // Register the plugin's events
+        getServer().getPluginManager().registerEvents(this, this);
     }
 
     //-------------------------------------------//
